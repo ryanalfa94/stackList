@@ -1,5 +1,4 @@
 // Ryan Alfa 
-// ASU ID 1221954331
 
 
 #define _ListStack_write_H 1
