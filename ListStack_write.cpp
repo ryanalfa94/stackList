@@ -1,3 +1,6 @@
+// Ryan Alfa 
+// ASU ID 1221954331
+
 
 #define _ListStack_write_H 1
 #include "structs.h"
@@ -14,7 +17,6 @@ if (!pLISTSTACK){
         fprintf(stderr, "Error in ListStackPrint: NULL ListStack\n");
         exit (0);
     }else{
-        fprintf(stdout, "Size=%d\n", pLISTSTACK->size);
         // setting pnode to the first nod of the list and store the the first node value as the max. 
         pNODE = pLISTSTACK->top;
         max = pNODE->key; 
@@ -41,7 +43,6 @@ if (!pLISTSTACK){
         fprintf(stderr, "Error in ListStackPrint: NULL ListStack\n");
         exit (0);
     }else{
-        fprintf(stdout, "Size=%d\n", pLISTSTACK->size);
         pNODE = pLISTSTACK->top;
         min = pNODE->key; 
         pNODE = pNODE->next;
@@ -64,7 +65,6 @@ if (!pLISTSTACK){
         fprintf(stderr, "Error in ListStackPrint: NULL ListStack\n");
         exit (0);
     }else{
-        fprintf(stdout, "Size=%d\n", pLISTSTACK->size);
         pNODE = pLISTSTACK->top;
         sum =  pNODE->key; 
         pNODE = pNODE->next;
@@ -169,5 +169,5 @@ if (!pLISTSTACK){
         
     }
 
-return pNode;  
+return pNode;
 }
