@@ -18,7 +18,6 @@ if (!pLISTSTACK){
         // setting pnode to the first nod of the list and store the the first node value as the max. 
         pNODE = pLISTSTACK->top;
         max = pNODE->key; 
-        fprintf(stdout, "%lf\n", pNODE->key);
         //make pnode equal the next node 
         pNODE = pNODE->next;
         // looping throgh all the nodes and set max equal he largest num in it 
